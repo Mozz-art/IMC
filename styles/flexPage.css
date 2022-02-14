@@ -1,0 +1,64 @@
+#mainConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+}
+
+#centerBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border-radius: 15px; 
+}
+
+#txtIMC{
+    font-size: 40px;
+}
+
+#Peso{
+    width:100%;
+    height: 30%;
+}
+
+#Peso input{
+    display: flex;
+    width: 100%;
+    background: #FFFFFF;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+#Altura{
+    width:100%;
+    height: 30%;
+}
+#Altura input{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+#btnCalcular{
+    height: 15%;
+    width: 100%;
+    background: #F7B718;
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+#btnCalcular:hover{
+    background: #b18516;
+}
+#positionResultado{
+    display: flex;
+    font-size: clamp(0.3rem, 4vw, 0.8rem);
+}

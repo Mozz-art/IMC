@@ -4,15 +4,73 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./index.css">
   <title>Document</title>
 </head>
 
 <body>
 
+  <main>
+
+    <section id="mainConteiner">
+
+      <h1 id="txtIMC">Calcule seu IMC</h1>
+
+      <div id="centerBox">
+
+        <div id="Peso">
+
+          <h2 id="pesoValor">Peso</h2>
+
+          <input type="range" id="pesoJS" value="" min="0" max="150" oninput="this.nextElementSibling.value = this.value">
+          <output id="outputPeso">24</output>
+
+        </div>
+
+        <div id="Altura">
+
+          <h2>Altura</h2>
+        
+          <input type="range" id="alturaJS" value="" min="0" max="2.5" step="0.01"oninput="this.nextElementSibling.value = this.value">
+          <output id="outputAltura">2.5</output>
+
+        </div>
+
+        <button id="btnCalcular">Calcular</button>
+
+        <div id="positionResultado">
+
+          <h1>Resultado:</h1>
+          <h1 id="resultado">0</h1>&ensp;
+          <h1 id="faixaPeso">normal</h1>
+
+
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+  </main>
+
   
 </body>
 
-<script type="module" src="index.js"></script>
+<script type="module" src="./index.js"></script>
 
 </html>
